@@ -8,9 +8,9 @@ from django.views.decorators.csrf import csrf_exempt
 from oauth2client.service_account import ServiceAccountCredentials
 
 # Define your verify token and Google Sheets details
-VERIFY_TOKEN = '01910523660'
+VERIFY_TOKEN = 'your token'
 GOOGLE_SHEET_NAME = 'orders'
-GOOGLE_CREDENTIALS_FILE = 'credential/quantum-weft-424911-g0-095c59c33e91.json'
+GOOGLE_CREDENTIALS_FILE = 'json path'
 
 # Define column names for the Google Sheet
 COLUMN_NAMES = ['Customer Name', 'Product Name', 'Price', 'Quantity', 'Address']
